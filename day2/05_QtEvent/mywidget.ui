@@ -13,15 +13,45 @@
   <property name="windowTitle">
    <string>MyWidget</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
-   <item>
-    <widget class="MyLabel" name="label">
-     <property name="text">
-      <string>TextLabel</string>
-     </property>
-    </widget>
-   </item>
-  </layout>
+  <widget class="MyLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>72</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="MyButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>261</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eventfilter">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>event_filter</string>
+   </property>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
@@ -29,6 +59,11 @@
    <class>MyLabel</class>
    <extends>QLabel</extends>
    <header location="global">mylabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">mybutton.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
