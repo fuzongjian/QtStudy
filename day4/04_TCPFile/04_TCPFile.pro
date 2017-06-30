@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-06-29T22:25:50
+# Project created by QtCreator 2017-06-30T09:19:55
 #
 #-------------------------------------------------
 
@@ -8,17 +8,17 @@ QT       += core gui
 QT       += network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 02_UDP
+TARGET = 04_TCPFile
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp \
+        serverwidget.cpp \
     clientwidget.cpp
 
-HEADERS  += widget.h \
+HEADERS  += serverwidget.h \
     clientwidget.h
 
-FORMS    += widget.ui \
+FORMS    += serverwidget.ui \
     clientwidget.ui
-CONFIG += C++11
+CONFIG   += C++11
