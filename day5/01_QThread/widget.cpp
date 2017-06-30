@@ -26,7 +26,10 @@ void Widget::dealDone(){
     myTimer->stop();
 }
 void Widget::stopThread(){
-
+    // 停止线程
+    thread->quit();
+    //等待线程处理完手头工作，
+    thread->wait()
 }
 
 Widget::~Widget()

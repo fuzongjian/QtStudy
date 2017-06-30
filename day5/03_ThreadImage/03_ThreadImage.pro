@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-06-30T14:51:14
+# Project created by QtCreator 2017-06-30T16:24:19
 #
 #-------------------------------------------------
 
@@ -8,15 +8,15 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 02_ThreadPro
+TARGET = 03_ThreadImage
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mywidget.cpp \
+        widget.cpp \
     mythread.cpp
 
-HEADERS  += mywidget.h \
+HEADERS  += widget.h \
     mythread.h
 
-FORMS    += mywidget.ui
+FORMS    += widget.ui
