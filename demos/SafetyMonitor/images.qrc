@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/3.png</file>
+        <file>images/4.png</file>
+        <file>images/5.png</file>
+        <file>images/6.png</file>
+        <file>images/7.png</file>
+        <file>images/8.png</file>
+        <file>images/9.png</file>
+        <file>images/10.png</file>
+        <file>images/11.png</file>
+        <file>images/12.png</file>
+        <file>images/13.png</file>
+        <file>images/14.png</file>
+        <file>images/arrow_down.png</file>
+        <file>images/close.png</file>
+        <file>images/close_button.png</file>
+        <file>images/main_menu.png</file>
+        <file>images/max_button.png</file>
+        <file>images/min_button.png</file>
+        <file>images/skin.png</file>
+        <file>images/skin_button.png</file>
+    </qresource>
+</RCC>

@@ -176,6 +176,11 @@ void MainWindow::on_buttonSure_clicked()
         QMessageBox::warning(this,"数据库打开失败",query.lastError().text());
     }
 
+
+    // 把确认后的数据，更新到xml中
+
+
+
     ui->buttonSure->setEnabled(false);
     on_buttonCancle_clicked();
 }
