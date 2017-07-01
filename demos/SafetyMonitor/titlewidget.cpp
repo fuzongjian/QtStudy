@@ -8,6 +8,12 @@ TitleWidget::TitleWidget(QWidget *parent) :
     ui->setupUi(this);
 }
 
+void TitleWidget::paintEvent(QPaintEvent *){
+    QPainter painter(this);
+    painter.drawPixmap(rect(),QPixmap(":/images/skin"));
+}
+
+
 TitleWidget::~TitleWidget()
 {
     delete ui;

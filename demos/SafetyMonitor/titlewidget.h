@@ -2,7 +2,8 @@
 #define TITLEWIDGET_H
 
 #include <QWidget>
-
+#include <QPaintEvent>
+#include <QPainter>
 namespace Ui {
 class TitleWidget;
 }
@@ -17,6 +18,8 @@ public:
 
 private:
     Ui::TitleWidget *ui;
+protected:
+    void paintEvent(QPaintEvent *);
 };
 
 #endif // TITLEWIDGET_H
