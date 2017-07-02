@@ -24,7 +24,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 void MainWindow::changeView_one(){
-    qDebug()<<"1";
     ui->mainStack->setCurrentIndex(0);
 }
 void MainWindow::changeView_two(){
