@@ -14,21 +14,8 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color:rgb(25, 255, 243)</string>
+   <string notr="true"/>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>150</y>
-     <width>251</width>
-     <height>131</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>MonitorManager</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>
