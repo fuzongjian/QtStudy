@@ -14,13 +14,32 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    titlewidget.cpp
+    titlewidget.cpp \
+    pushbutton.cpp \
+    toolbutton.cpp \
+    monitormanager.cpp \
+    locationalarm.cpp \
+    alarmrecord.cpp \
+    handlelog.cpp \
+    systemsetting.cpp
 
 HEADERS  += mainwindow.h \
-    titlewidget.h
+    titlewidget.h \
+    pushbutton.h \
+    toolbutton.h \
+    monitormanager.h \
+    locationalarm.h \
+    alarmrecord.h \
+    handlelog.h \
+    systemsetting.h
 
 FORMS    += mainwindow.ui \
-    titlewidget.ui
+    titlewidget.ui \
+    monitormanager.ui \
+    locationalarm.ui \
+    alarmrecord.ui \
+    handlelog.ui \
+    systemsetting.ui
 
 RESOURCES += \
     images.qrc

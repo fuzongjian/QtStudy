@@ -88,14 +88,17 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(255, 170, 127)</string>
+       <string notr="true"/>
       </property>
-      <widget class="QWidget" name="page">
+      <widget class="MonitorManager" name="monitorManager">
        <property name="styleSheet">
         <string notr="true"/>
        </property>
       </widget>
-      <widget class="QWidget" name="page_2"/>
+      <widget class="LocationAlarm" name="locationAlarm"/>
+      <widget class="AlarmRecord" name="alarmRecord"/>
+      <widget class="HandleLog" name="handleLog"/>
+      <widget class="SystemSetting" name="systemSetting"/>
      </widget>
     </item>
    </layout>
@@ -106,7 +109,7 @@
      <x>0</x>
      <y>0</y>
      <width>1200</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
@@ -117,6 +120,36 @@
    <class>TitleWidget</class>
    <extends>QWidget</extends>
    <header>titlewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MonitorManager</class>
+   <extends>QWidget</extends>
+   <header>monitormanager.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LocationAlarm</class>
+   <extends>QWidget</extends>
+   <header>locationalarm.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AlarmRecord</class>
+   <extends>QWidget</extends>
+   <header>alarmrecord.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HandleLog</class>
+   <extends>QWidget</extends>
+   <header>handlelog.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SystemSetting</class>
+   <extends>QWidget</extends>
+   <header>systemsetting.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
